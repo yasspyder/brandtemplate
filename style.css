@@ -1,0 +1,108 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic,900,900italic);
+
+
+   * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+    } 
+
+body {
+    background-color: #ffffff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+.container {
+    width: 100%;
+    max-width: 1900px;
+    margin: 0 auto;
+    border: green solid 1px;
+}
+
+.header {
+    height: 75px;
+    background-color: #222222;
+}
+
+img {
+    border:none;
+}
+
+.logoimg {
+    margin-top: 18px;
+    width: 150px;
+    border: green solid 1px;
+}
+
+.headerlogo {
+    display: flex; 
+    width: 355px;
+}
+
+.addblock {
+    height: 764px; 
+    background-color: #F1E4E6; 
+    display: flex;
+}
+
+.addblocktext {
+    margin: 290px auto; 
+    height: 93px; 
+    width:405px; 
+    display: flex;
+}
+
+.brandtext {
+    height: 93px; 
+    width: 397px; 
+    margin: 0 auto 0 16px;
+}
+
+.brandtextbig {
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+    font-size: 48px; 
+    font-weight: 900;"
+}
+
+.brandtextsmall {
+    font-family: Arial, Helvetica, sans-serif; 
+    font-size: 30px; 
+    font-weight: 700;
+}
+
+.contentadd {
+    height: 470px; 
+    max-width: 1140px; 
+    margin: 65px auto;
+}
+
+
+
+.contentaddflex {
+    height: 260px; 
+    display: flex; 
+    justify-content:space-between;
+    }
+
+.contentaddtexttop {
+    width: 155px; 
+    height: 50px; 
+    margin: 105px auto;
+    text-align: center;
+}
+
+.contentaddtextbottom {
+    width:160px; 
+    height:50px; 
+    margin:65px auto;
+    text-align: center;
+}
+
+
+.contentitems {
+    margin: 65px auto; 
+    width: 182px; 
+    height: 36px;
+}
